@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 流程图相关 -->
+    <color name="flow_chart_line">#9bdbf6</color>
+    <color name="flow_chart_text">#3c3c3c</color>
+    <color name="flow_chart_high_light">#204e94</color>
+    <color name="flow_chart_shape">#204e94</color>
+    <color name="flow_chart_inside">#f6f6f6</color>
+</resources>
