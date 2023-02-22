@@ -93,11 +93,11 @@ public abstract class BaseView extends View implements VirtualViewEntrance {
                 ABAppUtil.dip2px(getContext(), RECTANGLE_UT_WIDTH_DP / 2 + LINE_POINT_DISTANCE_DP);
         leftCornerY = rightCornerY;
 
-/*
         if (getDarkModeStatus(getContext())) {
             paint.setColor(ContextCompat.getColor(getContext(), android.R.color.black));
+        }else{
+            paint.setColor(ContextCompat.getColor(getContext(), android.R.color.white));
         }
-*/
         canvas.drawRect(0, 0, getRight(), getBottom(), paint);
 
         //绘制线
